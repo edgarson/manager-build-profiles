@@ -21,6 +21,9 @@
         <type image="vmx" filesystem="ext3" boot="vmxboot/suse-SLES12" format="qcow2" bootloader="grub2" kernelcmdline="nomodeset">
 	</type>
     </preferences>
+ <users group="root">
+        <user password="caf90169eefa5f807d577486b9f795ab86ae2983c5c20806cff959117e90af18" home="/root" name="root"/>
+</users>
     <!--    CUSTOM REPOSITORY -->
     <repository type="rpm-dir">
       <source path="this://repo"/>
