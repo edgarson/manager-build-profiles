@@ -18,7 +18,7 @@
         <hwclock>utc</hwclock>
 
         <rpm-excludedocs>true</rpm-excludedocs>
-        <type image="vmx" filesystem="ext3" boot="qcow2/suse-SLES12" format="qcow2" bootloader="grub2" kernelcmdline="nomodeset">
+        <type image="vmx" filesystem="ext3" boot="vmxboot/suse-SLES12" format="qcow2" bootloader="grub2" kernelcmdline="nomodeset">
 <!--        <type boot="isoboot/suse-SLES12" image="iso" kernelcmdline="quiet"></type> -->
     </preferences>
     <!--    CUSTOM REPOSITORY -->
