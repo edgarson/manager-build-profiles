@@ -19,7 +19,6 @@
 
         <rpm-excludedocs>true</rpm-excludedocs>
         <type boot="isoboot/suse-SLES12" image="iso" kernelcmdline="quiet"></type>
-        <type boot="oemboot/suse-SLES12" filesystem="ext3" image="oem" installiso="true"></type>
     </preferences>
     <!--    CUSTOM REPOSITORY -->
     <repository type="rpm-dir">
